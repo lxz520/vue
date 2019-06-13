@@ -1,0 +1,149 @@
+/* 头部 */
+.header{
+    width: 100%;
+    height: .9rem;
+    background:linear-gradient(to left,#FA4DBE 0,#FBAA58 100%) ;
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    z-index:10
+}
+.header input{
+    width: 6.4rem ;
+    height: .6rem;
+    border-radius: 20px;
+    padding-left: 20px;
+    line-height: .6rem;
+    outline: none;
+    border: 0
+}
+.header div{
+    width: .9rem;
+    height: .9rem;
+    text-align: center;
+    line-height: .9rem
+}
+/* 横向导航条 */
+.nav{
+    width: 100%;
+    height:.8rem ;
+    background: #fff; 
+    border-bottom: solid 4px #fff;
+    z-index:15;
+    position: relative;
+}
+.nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    width: max-content
+}
+.nav ul li{
+    flex-shrink:0;
+    height:.8rem;
+    line-height: .8rem;
+    padding: 0 .3rem;
+   
+}
+/* banner大图 */
+.banner img{
+    height: 3.12rem;
+}
+/* homeClasscify 五个图 */
+.homeClasscify{
+    height: 2.32rem;
+    width: 100%;
+    padding-top: .28rem
+
+}
+.homeClasscify ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.homeClasscify ul li{
+    text-align: center
+}
+.homeClasscify ul li img{
+    width:1.2rem ;
+    height: 1.2rem;
+}
+.homeClasscify ul li p{
+    width: 1.12rem;
+    height: .32rem;
+}
+/* home_ant  */
+
+.Home_ant{
+    width:100% ;
+    height: 2.72rem;
+}
+.Home_ant .Ant{
+    width: 100%;
+    height: .9rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .2rem;
+    font-size: 14px
+}
+.Home_ant .Ant span{
+    width: 1.76rem;
+    height: .9rem;
+    display: block;
+    color: red   
+}
+/* 1.82rem */
+.Home_ant ul{
+    width: 100%;
+    height: 1.82rem;
+    display: flex;
+    justify-content: space-between
+}
+.Home_ant ul li img{
+    display: block;
+    width: 1.61rem;
+    height: 1.62rem;
+
+}
+/* goodlist */
+
+.goodlist {
+  margin-top: .5rem;
+  height: 100%;
+  /* position: relative; */
+  overflow: hidden;
+}
+.goods_item {
+    display: flex;
+    padding: 0 .3rem;
+    justify-content: space-between;
+    height: 2.9rem;
+}
+.goods_item .goods_l {
+  width: 2.52rem;
+  height: 2.52rem;  
+}
+.goods_item .goods_l img{
+    width: 100%;
+    height: 100%;
+}
+.goods_item  .goods_r p:nth-of-type(1){
+    height: .4rem;
+    margin-top: .8rem;
+    display: flex;
+    justify-content: space-between
+}
+.home{
+    height: 100%;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
